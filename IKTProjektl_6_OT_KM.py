@@ -49,3 +49,11 @@ else:
     print("Az átlagnál kisebb és nagyobb elemek száma egyenlő.")
 
 
+t = [27.3, 30.2, 19.2, 26.3, 27.3, 27.2, 27, 10.2]
+if any(h < 0 for h in t):
+    print("Téli hónap")
+else:
+    print("Nem téli hónap.")
+
+
+
