@@ -12,3 +12,6 @@ for ho in t:
         max_szam+=1
 
 print(max_szam,"alkalommal.")
+
+n1 = 8
+t1 = [27,3, 30,2, 19,2, 26,3, 27,3, 27,2, 27, 10,2]
