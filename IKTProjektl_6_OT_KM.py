@@ -1,3 +1,5 @@
+# Oláh Tünde, Kiss Marcell 10/B
+#Python első beadandó
 n = 8
 t = [27.3, 26.8, 25.7, 26.3, 27.3, 27.2, 27, 27.3]
 max_ho = t[0] 
