@@ -26,3 +26,26 @@ for i in t1:
 terjedelem = legnagyobb - legkisebb
 print(int(terjedelem),".")
 
+
+t2 = [27.3, 30.2, 19.2, 26.3, 27.3, 27.2, 27, 10.2]
+összesen = 0
+szam1 = 0
+for i in t2: 
+    összesen += i  
+    szam1 += 1  
+átlag = összesen / szam1
+átlagalatt = 0
+átlagfelett = 0
+for i in t2:  
+    if i < átlag:
+        átlagalatt += 1  
+    elif i > átlag:
+        átlagfelett += 1  
+if átlagfelett > átlagalatt:
+    print("Az átlagnál nagyobb elemekből van több.")
+elif átlagalatt > átlagfelett:
+    print("Az átlagnál kisebb elemekből van több.")
+else:
+    print("Az átlagnál kisebb és nagyobb elemek száma egyenlő.")
+
+
